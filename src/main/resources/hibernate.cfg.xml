@@ -1,0 +1,25 @@
+<!--
+<hibernate-configuration>
+    <session-factory>
+        &lt;!&ndash; MySQL JDBC Driver &ndash;&gt;
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+
+        &lt;!&ndash; Connection URL &ndash;&gt;
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernatedb</property>
+
+        &lt;!&ndash; Database credentials &ndash;&gt;
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+
+        &lt;!&ndash; Hibernate dialect for MySQL &ndash;&gt;
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        &lt;!&ndash; Cache and SQL logging &ndash;&gt;
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+        <property name="show-sql">true</property>
+
+        &lt;!&ndash; Entity mapping &ndash;&gt;
+        <mapping class="org.olive.UserDetails"/>
+    </session-factory>
+</hibernate-configuration>
+-->
