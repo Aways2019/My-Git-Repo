@@ -31,6 +31,8 @@ public class AccountController {
 
         ac.setAccountNumber(accNum);
         as.update(ac);
+        //System.out.println("method executed");
+
     }
 
     @DeleteMapping("/delete")

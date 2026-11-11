@@ -27,6 +27,7 @@ public class AccountController {
     @GetMapping("/get")
     public List<Account> getData() {
 
+        System.out.println("Method executed");
         return as.getAllData();
     }
 
