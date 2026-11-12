@@ -40,6 +40,7 @@ public class AccountController {
     {
 
         as.delete(ac);
+        //System.out.println("Delete method executed");
 
     }
 
