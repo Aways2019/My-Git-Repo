@@ -24,7 +24,6 @@ public class AccountController {
     public List<Account> getData() {
 
         return as.getAllData();
-
     }
 
     @PutMapping("/acc/update/{accNum}")
