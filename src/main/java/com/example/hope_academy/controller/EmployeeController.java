@@ -31,7 +31,7 @@ public class EmployeeController {
     @DeleteMapping("/deleteEmp")
     public void deleteEmp(@RequestBody  Employee emp){
         es.delete(emp);
-
+        System.out.println("delete method executed");
     }
 
 
