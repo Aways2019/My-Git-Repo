@@ -16,7 +16,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>hope_academy</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>hope_academy</name>
     <description>Hope Academy Spring Boot Project</description>
 
