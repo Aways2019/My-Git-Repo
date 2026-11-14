@@ -41,6 +41,7 @@ public class AccountController {
     public void delete(@RequestBody Account ac) {
 
         as.delete(ac);
+       // System.out.println("Delete method executed");
         System.out.println("Delete method executed");
     }
 
