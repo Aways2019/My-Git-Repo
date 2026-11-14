@@ -24,6 +24,7 @@ public class AccountController {
     public List<Account> getData() {
 
         return as.getAllData();
+
     }
 
     @PutMapping("/acc/update/{accNum}")
@@ -40,6 +41,7 @@ public class AccountController {
     {
 
         as.delete(ac);
+        //System.out.println("Delete method executed");
 
     }
 
